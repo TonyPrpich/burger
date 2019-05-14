@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TonyPrpich/burger/issues"
   },
-  "homepage": "https://github.com/TonyPrpich/burger#readme"
+  "homepage": "https://github.com/TonyPrpich/burger#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
