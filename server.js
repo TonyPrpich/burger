@@ -6,7 +6,7 @@ var exphbs = require("express-handlebars");
 
 
 var app = express();
-var PORT = process.env.PORT || 8080;
+var PORT = process.env.PORT || 3306;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(methodOverride("_method"));
