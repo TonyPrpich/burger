@@ -17,7 +17,7 @@ app.set("view engine", "handlebars");
 app.use(express.static('public'));
 
 
-app.use(require('./controllers/burgers_controller'));
+app.use(require('controllers/burgers_controller.js'));
 
 app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
